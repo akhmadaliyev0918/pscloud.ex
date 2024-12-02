@@ -1,0 +1,98 @@
+.navbarContainer {
+    width: 100%;
+    padding: 16px 0 13px 0;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+.header_wrapper {
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 5px;
+    align-items: center;
+}
+.header_logo img {
+    height: 32px;
+    margin-right: 50px; 
+
+}
+.header_left {
+    display: flex;
+    align-items: center;
+}
+.header_language select {
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 0 0 5px 0;
+}
+.header_language select option {
+    border: none;
+    border-radius: 0;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    margin: 0 2px 5px 0;
+}
+.header_basket {
+    padding: 0 35px 0 40px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+.header_basket img {
+    filter: grayscale();
+    color: aliceblue;
+    opacity: 0.2;
+}
+.header_basket span {
+    filter: grayscale();
+    color: rgb(204, 204, 204);
+    font-size: 14px;
+}
+.header_auth {
+    display: flex;
+    gap: 5px;
+}
+.header_right a {
+    color: black;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif 'Helvetica Neue', sans-serif;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid #51acda;
+    text-decoration: none;
+    padding: 0;
+}
+
+#connectMe {
+    color: black;
+    font-weight: 400;
+    color: #3d3d3d;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif 'Helvetica Neue', sans-serif;
+    transition: color 0.3s ease;
+    text-decoration: none;
+    border-bottom: 1px dotted #41728b;
+}
+
+#connectMe::after {
+    content: '';
+    height: 0;
+    width: 0%;
+    background: #41728b;
+    transition: background 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

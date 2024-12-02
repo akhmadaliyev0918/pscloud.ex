@@ -1,0 +1,288 @@
+.productCategory {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+}
+
+.containerProduct {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.containerProduct h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #464646;
+    text-align: start;
+    margin: 3px 0 10px 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.rowProduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rowProduct p {
+    font-size: 14px;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+    line-height: 22px;
+    text-align: start;
+    margin-top: 5px;
+}
+
+.left-row {
+    height: 65px;
+    margin: 5px 45px 0 95px;
+}
+
+.left-row a {
+    padding: 0 10px;
+    height: 100%;
+    background: #56b9db;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 1px solid #56b9db;
+}
+
+.rowbtnText {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+}
+
+.rowbtnText2 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+.product_wrapper {
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.product_item {
+    width: 353px;
+    height: 290px;
+    background: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+}
+
+.item-logo1 {
+    width: 80px;
+    height: 80px;
+    background: #439221;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-logo2 {
+    width: 80px;
+    height: 80px;
+    background: #2396b8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-logo3 {
+    width: 80px;
+    height: 80px;
+    background: #439221;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-logo1 img,
+.item-logo2 img,
+.item-logo3 img {
+    width: 48px;
+    height: 48px;
+}
+
+.xosting {
+    color: #0094c5;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.item-text h5 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.item-text p {
+    font-size: 12px;
+    color: #464646;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 5px;
+}
+
+.item-text {
+    margin-bottom: 20px;
+}
+
+.share {
+    font-size: 12px;
+    color: #0094c5;
+}
+
+.lenta {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.Free {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.PCI {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#vcn {
+    width: 80px;
+    height: 80px;
+}
+
+
+.news {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsContainer {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: 90px 0 82px 0;
+}
+
+.newsTextCenter {
+    font-size: 24px;
+    color: #464646;
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.newsTextCenter-text {
+    font-size: 36px;
+    color: #464646;
+    text-decoration: none;
+    gap: 5px;
+    display: flex;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.newsRow {
+    display: flex;
+    gap: 90px;
+}
+
+.newsRow-item {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.newsRow-item-a {
+    color: #0099cc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.newsRow-item-p {
+    font-size: 12px;
+    color: #46464693;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+
+}
+
+.payment {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paymentContainer {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.payment-types {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    margin: 35px 0;
+}
+
+.payment-img1,
+.payment-img2,
+.payment-img4,
+.payment-img5 {
+    width: 55px;
+}
+
+.payment-img3 {
+    width: 63px;
+}
+.gap {
+    width: 100%;
+    height: 40px;
+}

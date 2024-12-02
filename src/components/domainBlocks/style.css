@@ -1,0 +1,114 @@
+.domain-block {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../asset/images/domains-bg.png);
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 1140px;
+    align-items: start;
+    margin-top: 5px;
+}
+.h1 {
+    font-size: 24px;
+    color: #464646;
+    padding: 5px 0 15px 0;
+}
+.promotion {
+    width: 100%;
+    height: 160px;
+    box-shadow: 0 10px 10px #6e6e6e5e;
+    background: white;
+    margin-bottom: 10px;
+}
+.domain-search::placeholder {
+    color: #9e9e9e;
+    font-size: 14px;
+}
+.container a {
+    color: #007e9e;
+    margin-bottom: 100px;
+}
+.check-domain {
+    width: 100%;
+    height: calc(100% - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.promotion-footer {
+    width: 100%;
+    height: 56px;
+    background: #787cac;
+}
+.check-domain-form {
+    display: flex;
+    height: 38px;
+    background: rgba(211, 211, 211, 0.678);
+    padding: 1px 2px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 10px 10px;
+    position: relative;
+}
+.domain-search {
+    height: 34px;
+    width: 898px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.check-domain-form button {
+    padding: 6px 22px 12px 22px;
+    font-size: 14px;
+    height: 100%;
+    background: #0099cc;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #0081ac;
+    border-radius: 5px;
+}
+.check-domain-form button:hover {
+    background: #0081ac;
+}
+.domain-search:focus {
+    box-shadow: 0 0 10px #0099cc59;
+}
+.promotion-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 15px 15px 0 0;
+    padding: 0 0 0 95px;
+    font-weight: 700;
+}
+.promotion-footer {
+    display: flex;
+    justify-content: start;
+}
+.connect {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hwois {
+    position: absolute;
+    top: 50%;
+    right: 150px;
+    z-index: 999;
+    transform: translateY(-47%);
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: 0.5px dotted grey;
+    padding: 3px 0;
+    color: lightgray;
+}
